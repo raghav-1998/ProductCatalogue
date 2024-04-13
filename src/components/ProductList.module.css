@@ -1,0 +1,28 @@
+.productList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .productCard {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .productName {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .productDescription {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .productPrice {
+    font-size: 1.2rem;
+    color: #4caf50;
+  }
+  
